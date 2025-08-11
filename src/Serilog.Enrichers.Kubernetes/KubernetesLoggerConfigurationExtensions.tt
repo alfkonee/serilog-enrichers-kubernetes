@@ -18,7 +18,7 @@
             {
                 {"Name", "K8sPodName"},
                 {"FilePathApendix", "name"},
-                {"EnvironmentVariable", "POD_NAMES"}
+                {"EnvironmentVariable", "POD_NAME"}
             }
         },
         {

@@ -62,7 +62,7 @@ See `examples/full-example-downwardapi-environment-variable-mode.yaml`
 Code usage | Default path | Kubernetes Configuration variable
 --- | --- | --- 
 `Enrich.WithK8sPodNamespace(DownwardApiMethod.EnvironmentVariable)` | `POD_NAMESPACE` | `fieldRef.fieldPath: metadata.namespace`
-`Enrich.WithK8sPodName(DownwardApiMethod.EnvironmentVariable)` | `/POD_NAME` | `fieldRef.fieldPath: metadata.name`
+`Enrich.WithK8sPodName(DownwardApiMethod.EnvironmentVariable)` | `POD_NAME` | `fieldRef.fieldPath: metadata.name`
 `Enrich.WithK8sPodUID(DownwardApiMethod.EnvironmentVariable)` | `POD_UID` | `fieldRef.fieldPath: metadata.uid`
 `Enrich.K8sPodNodeName(DownwardApiMethod.EnvironmentVariable)` | `POD_NODE_NAME` | `fieldRef.fieldPath: spec.nodeName`
 `Enrich.K8sPodHostIP(DownwardApiMethod.EnvironmentVariable)` | `POD_HOST_IP` | `fieldRef.fieldPath: status.hostIP`
